@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="relheight.js"></script>
+        <script>
+            $(function(){
+                $('.main-box > div.row-1, .side-box > div.row-1').relheight();
+                $('.main-box > div.row-2, .side-box > div.row-2').relheight();
+            });
+        </script>
+        <style>
+            .main-box, .side-box {float: left;}
+            .main-box {width: 75%;}
+            .side-box {width: 25%;}
+            .main-box > div, .side-box > div {margin: 5px; background-color: #eee;}
+            .main-box > div.row-2 {float: left; width: 45%;}
+        </style>
+        <title>test</title>
+    </head>
+    <body>
+
+        <div class="main-box">
+            <div class="row-1"><div>
+                    <p>main 1</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel accumsan neque. Maecenas dictum luctus volutpat. Aenean nec tristique nibh. Quisque felis orci, feugiat sit amet bibendum at, fringilla sed nisi. Etiam rhoncus suscipit mi, vel convallis eros pulvinar at. Pellentesque gravida sem ac augue sollicitudin non blandit urna malesuada. Mauris nec magna metus. Morbi et purus ligula. Nullam commodo augue ac dui pharetra quis vehicula est gravida. Integer venenatis, ipsum vitae consequat tempor, felis purus hendrerit urna, in tristique lacus lacus nec ante. Suspendisse id nisl felis. Maecenas ipsum mauris, tristique a luctus eget, blandit dignissim diam. Quisque ornare metus ac neque gravida at iaculis libero euismod. Quisque tempor tellus vel tellus blandit pretium. Integer aliquam sollicitudin nisl, id molestie tortor tempus eu.
+                    </p>
+                    <p>
+                        Nullam sollicitudin sollicitudin risus. Morbi scelerisque quam sit amet orci porta vitae dictum lorem placerat. Aenean cursus aliquet ipsum eget rutrum. Cras nibh felis, scelerisque ut posuere et, pellentesque in nisi. Duis faucibus tincidunt risus id suscipit. Vivamus venenatis, diam ut vulputate vestibulum, neque leo iaculis arcu, quis interdum turpis leo eget metus. Duis accumsan, quam iaculis varius consequat, nulla libero placerat tortor, quis vulputate lorem turpis quis mauris. Nulla magna mi, elementum non sollicitudin nec, auctor id velit. Donec eleifend mauris sed nisi posuere laoreet. Maecenas interdum felis id diam accumsan ultricies. Mauris et eros sed erat tincidunt placerat. In felis arcu, adipiscing eu consectetur sit amet, fringilla eget orci. Nunc odio ligula, convallis at ullamcorper ac, ultricies a mi. Curabitur tincidunt volutpat mauris, at semper tellus adipiscing vel. Proin ut risus in leo viverra ornare at et orci. Nam dapibus tempor tortor, in accumsan sem feugiat quis.
+                    </p>
+                </div></div>
+            <div class="row-2"><div>
+                    <p>main 2</p>
+                    <p>
+                        Etiam sollicitudin nulla in dui tincidunt at scelerisque elit ultricies. Vestibulum fermentum tempor dui ac vulputate. Sed consequat elementum magna, in viverra quam aliquet ac. Nullam ac dolor est, eu facilisis risus. Fusce risus lacus, sodales id cursus vel, posuere vel tortor. Sed pretium iaculis augue, et posuere nulla ullamcorper bibendum. Sed cursus dictum vehicula. Etiam ut tellus sit amet lacus varius volutpat quis quis magna. Curabitur ligula tortor, convallis at adipiscing ut, scelerisque a nisl.
+                    </p>
+                </div></div>
+            <div class="row-2"><div>
+                    <p>main 3</p>
+                    <p>
+                        Aenean eget nunc erat, nec consectetur erat. Donec ut massa dui. Nulla mollis libero vitae urna scelerisque adipiscing. Donec faucibus sodales sem vitae elementum. Quisque nec magna vel dolor interdum vulputate accumsan elementum dolor. Proin ut mi ac quam porta imperdiet. Maecenas non neque a leo dictum rutrum vitae a eros. Mauris eu pulvinar sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus vitae convallis magna. Suspendisse consequat libero tellus. Ut lectus neque, malesuada dignissim cursus sit amet, gravida in massa. Nullam non bibendum dui. Mauris consequat ante eget urna volutpat volutpat.
+                    </p>
+                </div></div>
+        </div>
+        <div class="side-box">
+            <div class="row-1"><div>
+                    <p>side 1</p>
+                    <p>
+                        Sed at facilisis sem. Mauris sagittis, nulla a fermentum aliquam, leo lectus dictum urna, nec varius libero dolor in mi. Aliquam adipiscing est sit amet ante sollicitudin sodales. Vestibulum auctor, mauris eu tincidunt consequat, ante sapien tempus odio, ut commodo massa elit a velit. Vivamus et est non leo congue varius. Duis tristique pretium neque, sed pretium leo pharetra at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In semper, enim vel tristique ornare, odio mi sodales odio, ut fermentum velit libero quis urna. Nunc ante nisl, pretium sit amet eleifend sed, vulputate sed nunc. Etiam dignissim dolor posuere lacus lobortis quis imperdiet ligula feugiat. In et est ante, id pulvinar lectus. Nullam dictum, elit quis egestas posuere, libero sem mollis metus, vel pellentesque quam massa eu lectus.
+                    </p>
+                </div></div>
+            <div class="row-2"><div>
+                    <p>side 2</p>
+                    <p>
+                        &nbsp;
+                    </p>
+                </div></div>
+        </div>
+
+    </body>
+</html>
